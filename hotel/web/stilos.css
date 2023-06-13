@@ -1,0 +1,235 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.rectangulo {
+  border: 1px solid blue;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.lista-horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  margin-right: 20px;
+  position: relative;
+}
+
+.item a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.circulo {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.item.active .circulo {
+  background-color: red;
+}
+
+button {
+  background-color: #bf9d7a;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #8b6249;
+}
+
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b2;
+}
+
+/* Estilos de la sección "About" */
+#about {
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+  font-family: "sans-serif"; /* Cambia "Arial" por el nombre de la fuente que deseas utilizar */
+  letter-spacing: .5px; /* Ajusta el valor según el espaciado deseado */
+  font-size: 20px;
+  text-align: justify;
+}
+.precio {
+    margin: 13px;
+}
+
+
+/* Estilos de la sección "Rooms" */
+#rooms {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ .boton3 {
+  display: block; /* Hacer que el botón sea un elemento de bloque */
+  margin: 16px auto; /* Centrar horizontalmente el botón */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s; /* Agregar transición al efecto de agrandar */
+}
+
+.boton3:hover {
+  transform: scale(1.2); /* Aumentar el tamaño del botón al pasar el mouse */
+}
+#rooms p{
+    text-align: justify;
+}
+
+.habi{
+    margin: 8px 0 8px;
+    font-weight: bold;
+}
+.room {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+.room p{
+    margin-top: 12px;
+}
+
+.room img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+
+/* Estilos de la sección "Contact" */
+#contact {
+  padding: 50px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+
+/* Estilos del footer */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto 50px;
+  align-items: center; 
+}
+
+.info {
+  text-align: left;
+  flex-grow: 1;
+  
+}
+
+.social-media {
+  text-align: right;
+}
+
+.social-media ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; /* Agregar esta línea para centrar verticalmente los íconos */
+}
+
+.social-media li {
+  margin-left: 10px;
+}
+
+.social-media li:first-child {
+  margin-left: 0;
+}
+
+.social-media a img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.social-media a img:hover {
+  transform: scale(1.2);
+}

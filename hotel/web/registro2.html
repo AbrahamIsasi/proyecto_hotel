@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Reservar</title>
+        <link rel="stylesheet" href="stilos.css">
+        <link rel="stylesheet" href="reset.css">
+    </head>
+   <body>
+    <img class="banner" src="logo.png">
+    <div class="container3">
+    <div class="container3">
+    <div class="rectangulo">
+      <ul class="lista-horizontal">
+        <li class="item active"><span class="circulo"></span><a href="#">Hacer una Reserva</a></li>
+        <li class="item"><span class="circulo"></span><a href="#">Extras</a></li>
+        <li class="item"><span class="circulo"></span><a href="#">Resumen</a></li>
+        <li class="item"><span class="circulo"></span><a href="#">Reservar</a></li>
+      </ul>
+    </div>
+  </div>
+  </div>
+    <main>
+      <section id="about">
+        
+        <p>El Hotel Palma es un lujoso hotel de 5 estrellas situado en el centro de una ciudad cosmopolita. Este magnífico establecimiento ofrece una experiencia única de lujo y comodidad para los huéspedes más exigentes.
+
+Con una arquitectura impresionante y una decoración elegante, el Hotel Estrella Dorada ofrece habitaciones y suites espaciosas y bellamente diseñadas. Cada habitación está equipada con todas las comodidades modernas, como televisión de alta definición, minibar, conexión Wi-Fi gratuita y un lujoso baño privado con artículos de tocador de alta calidad.
+
+Los huéspedes pueden disfrutar de una amplia gama de servicios y comodidades de primer nivel. El hotel cuenta con un exclusivo restaurante que ofrece una deliciosa gastronomía local e internacional preparada por chefs expertos. También hay un elegante bar donde los huéspedes pueden relajarse y disfrutar de una amplia selección de bebidas y cócteles.</p>
+      </section>
+        
+      <section id="rooms">
+          
+        <div class="room">
+          <img src="habitaciones/simple.jpg" alt="Habitación 1">
+          <h3 class="habi">Habitación Individual</h3>
+          <p>Disfrute de una habitación individual cómoda y tranquila, equipada con todas las comodidades modernas, incluyendo televisión por cable y wifi gratuito.</p>
+          <p class="precio"><center> s/. 50.00 x noche</center</p>
+          <button onclick="redirigir()"class="boton3">Reservar</button>
+          
+        </div>
+         
+        <div class="room">
+          <img src="habitaciones/doble.jpg" alt="Habitación 2">
+          <h3 class="habi">Habitación Doble</h3>
+          <p>Perfecta para parejas o amigos que viajan juntos, nuestra habitación doble cuenta con dos camas individuales y todas las comodidades modernas.</p>
+          <p class="precio"><center> s/. 90.00 x noche</center</p>
+           <button onclick="redirigir()"class="boton3">Reservar</button>
+        </div>
+          
+        <div class="room">
+          <img src="habitaciones/matri.jpg" alt="Habitación 3">
+          <h3 class="habi">Habitación Matrimonial</h3>
+          <p>Perfecta para parejas o esposos que viajan juntos, nuestra habitación Matrimonial cuenta con una cama matrimonial de 03 plazas  y todas las comodidades modernas.</p>
+          <p class="precio"><center> s/. 160.00 x noche</center></p>
+           <button onclick="redirigir()"class="boton3">Reservar</button>
+        </div>
+      </section>
+     
+    </main>
+     <script>
+            function redirigir() {
+            window.location.href = "resuelve.jsp"; 
+            }
+    </script>
+    
+   </body>
+   <footer>
+  <div class="footer-container">
+    <div class="footer-content">
+      <div class="info">
+        <h3>Contacto :</h3>
+        <p>Teléfono: 923334982</p>
+        <p>Correo electrónico: palma@hotel.com</p>
+        <p>Dirección: Av. Los Sauces, Ica</p>
+      </div>
+      <div class="social-media">
+        <h3>Nuestras Redes sociales
+            <br>     <br>
+     <ul>
+    <li><a href="#"><img src="icon/facebook.png" alt="facebook"></a></li>
+    <li><a href="#"><img src="icon/instagram.png" alt="instagram"></a></li>
+    <li><a href="#"><img src="icon/tik-tok.png" alt="tik-tok"></a></li>
+    <li><a href="#"><img src="icon/twitter.png" alt="twitter"></a></li>
+    <li><a href="#"><img src="icon/youtube.png" alt="youtube"></a></li>
+     </ul>
+        </h3>
+      </div>
+    </div>
+  </div>
+</footer>
+</html>
