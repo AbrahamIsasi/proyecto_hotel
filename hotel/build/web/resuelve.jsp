@@ -1,39 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="extra.css">
+  <link rel="stylesheet" href="reset.css">
+  <title>JSP Page</title>
+</head>
 
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-        <link rel="stylesheet" href="extra.css">
-        <link rel="stylesheet" href="reset.css">
-    </head>
-    <body>
-        <section id="romis">
-        <h2>Extras</h2>
-        <div class="room">
-          <h2>MASAJES RELAJANTES</h2>
-          <input type="checkbox" id="checkbox1">
-          <img src="ima/masaje.jpg" alt="extra1">
-          <p>Después de un agotador viaje, programe con anticipación el servicio de masajes relajantes o descontracturantes, dependiendo de la zona o zonas a tratar: espalda, piernas, cervical o craneal, incluye aromaterapia con aceites y cremas magistrales destinadas a relajar toda la musculatura del cuerpo, eliminar tensiones y elevar las vibraciones energéticas. Sesión para 01 persona. Tiempo de duración: 01 hora.</p>
-        <div class="room">
-          <h2>PAQUETE ROMANTICO CON CENA</h2>
-          <input type="checkbox" id="checkbox2">
-          <img src="ima/cena.jpg" alt="extra2">
-          <p>Disfruta en pareja de este plan: Incluye:Decoración en la habitación con globos y detalles románticos ,Cena o almuerzo para 02 personas (entrada, plato de fondo y postre) , 02 cocktails a elegir (pisco sour o piña colada) , 01 docena de chocolates.</p>
-        </div>
-        <div class="room"> 
-          <h2>PAQUETE ROMÁNTICO SÚTIL</h2>
-          <input type="checkbox" id="checkbox3">
-          <img src="ima/trago.jpg" alt="extra3">  
-          <p>Sorprende a tu pareja contratando este paquete adicional: Incluye: , Decoración en la habitación con globos y detalles románticos , 02 cocktails a elegir (pisco sour ó  piña colada ).</p>
-        </div>
-         <div class="room">
-          <h2>PAQUETE DE CUMPLEAÑOSL</h2>
-          <input type="checkbox" id="checkbox4">
-          <img src="ima/cumple.jpg" alt="extra4">
-          <p>¡Regale esta sorpresa a su familiar ó amigos! Incluye : Decoración con globos en la habitación , Una torta tamaño pequeño , 01 ronda de piqueo Gran Palma , 04 bebidas frias (agua o gaseosas).</p>
-          
-        </div>
-      </section>
-    </body>
+<body>
+
+  <section id="romis">
+    <article class="room">
+      <input type="checkbox" id="checkbox1">
+      <img src="ima/masaje.jpg" alt="extra1">
+      <div class="info">
+        <h2>MASAJES RELAJANTES</h2>
+        <p>Despues de un agotador viaje, programe con anticipaciÃ³n el servicio de masajes relajantes o
+          descontracturantes,
+          dependiendo de la zona o zonas a tratar: espalda, piernas, cervical o craneal, incluye aromaterapia con
+          aceites
+          y cremas magistrales destinadas a relajar toda la musculatura del cuerpo, eliminar tensiones y elevar las
+          vibraciones energï¿½ticas. Sesiï¿½n para 01 persona. Tiempo de duraciï¿½n: 01 hora.</p>
+      </div>
+    </article>
+    <hr>
+    <article class="room">
+      <input type="checkbox" id="checkbox2">
+      <img src="ima/cena.jpg" alt="extra2">
+      <div class="info">
+        <h2>PAQUETE ROMANTICO CON CENA</h2>
+        <p>Disfruta en pareja de este plan: Incluye:Decoraciï¿½n en la habitaciï¿½n con globos y detalles romï¿½nticos ,Cena o
+          almuerzo para 02 personas (entrada, plato de fondo y postre) , 02 cocktails a elegir (pisco sour o piï¿½a
+          colada) , 01 docena de chocolates.</p>
+      </div>
+    </article>
+    <hr>
+    <article class="room">
+      <input type="checkbox" id="checkbox3">
+      <img src="ima/trago.jpg" alt="extra3">
+      <div class="info">
+        <h2>PAQUETE ROMï¿½NTICO Sï¿½TIL</h2>
+        <p>Sorprende a tu pareja contratando este paquete adicional: Incluye: , Decoraciï¿½n en la habitaciï¿½n con globos y
+          detalles romï¿½nticos , 02 cocktails a elegir (pisco sour ï¿½ piï¿½a colada ).</p>
+      </div>
+    </article>
+    <hr>
+    <article class="room">
+      <input type="checkbox" id="checkbox4">
+      <img src="ima/cumple.jpg" alt="extra4">
+      <div class="info">
+        <h2>PAQUETE DE CUMPLEAï¿½OSL</h2>
+        <p>ï¿½Regale esta sorpresa a su familiar ï¿½ amigos! Incluye : Decoraciï¿½n con globos en la habitaciï¿½n , Una torta
+          tamaï¿½o pequeï¿½o , 01 ronda de piqueo Gran Palma , 04 bebidas frias (agua o gaseosas).</p>
+      </div>
+    </article>
+  </section>
+
+</body>
+
 </html>
